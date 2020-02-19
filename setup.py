@@ -1,10 +1,10 @@
 import sys
 from setuptools import setup
 
-__title__       = 'Flask-User'
-__description__ = 'Customizable User Authentication & User Management: Register, Confirm, Login, Change username/password, Forgot password and more.'
+__title__       = 'Flask-User-AWS'
+__description__ = 'AWS deployable Customizable User Authentication & User Management: Register, Confirm, Login, Change username/password, Forgot password and more.'
 __version__     = '1.0.2.3'
-__url__         = 'https://github.com/lingthio/Flask-User'
+__url__         = 'https://github.com/zfregin/Flask-User'
 __author__      = 'Ling Thio'
 __author_email__= 'ling.thio@gmail.com'
 __maintainer__  = 'Ling Thio'
@@ -76,7 +76,7 @@ setup(
     zip_safe=False,    # Do not zip as it will make debugging harder
 
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',   # Python 2.7 and 3.4+
-    setup_requires=['Flask-Login',] + pytest_runner,
+    setup_requires=pytest_runner,
     install_requires=[
         'bcrypt>=2.0',
         'cryptography>=1.6',
