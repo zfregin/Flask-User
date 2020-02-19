@@ -1,7 +1,7 @@
 import sys
 from setuptools import setup
 
-__title__       = 'Flask-User-AWS'
+__title__       = 'Flask-User4AWS'
 __description__ = 'AWS deployable Customizable User Authentication & User Management: Register, Confirm, Login, Change username/password, Forgot password and more.'
 __version__     = '1.0.2.3'
 __url__         = 'https://github.com/zfregin/Flask-User'
